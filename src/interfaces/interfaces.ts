@@ -68,7 +68,6 @@ export interface NewsFromApi {
 }
 
 export interface Tweet {
-  postedAt: string;
   author: string;
   text: string;
   sentimentAnalisys: string;

@@ -30,7 +30,7 @@ export const ContainerTexts = styled.div`
 `;
 
 export const Title = styled.h3`
-  color: ${(props) => props.theme.BRANCO};
+  color: #fff;
   font-family: "Jacques Francois";
   font-size: 16px;
   margin-bottom: 25px;
@@ -39,13 +39,13 @@ export const Title = styled.h3`
 
 export const OriginText = styled.p`
   font-family: "Poppins";
-  color: ${(props) => props.theme.BRANCO};
+  color: #fff;
   font-size: 14px;
   text-align: left;
 `;
 
 export const PublishDate = styled.p`
-  color: ${(props) => props.theme.BRANCO};
+  color: #fff};
   width: 100%;
   text-align: end;
 `;

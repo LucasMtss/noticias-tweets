@@ -80,7 +80,7 @@ function NewsDetails({ toggleTheme }: DefaultComponentProps) {
               <CardTweet>
                 <img src={profileImage} alt="tweet" />
                 <ContainerText>
-                  {/* <h2>Lucas</h2> */}
+                  <h2>{tweet.author}</h2>
                   <p>{tweet.text}</p>
                 </ContainerText>
               </CardTweet>

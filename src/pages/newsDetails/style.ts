@@ -130,7 +130,7 @@ export const CardTweet = styled.div`
   background-color: ${(props) => props.theme.CINZA_ESCURO};
   display: flex;
   border-radius: 6px;
-  color: ${(props) => props.theme.BRANCO};
+  color: #fff;
 
   img {
     border-radius: 50%;
@@ -146,8 +146,8 @@ export const ContainerText = styled.div`
   flex-direction: column;
 
   h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
+    font-size: 26px;
+    margin-bottom: 10px;
     margin-top: 10px;
     text-align: left;
   }
